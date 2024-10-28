@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a617a8fb-28c7-4bba-94a6-3dfc01c2bd14" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EjercicioContigoAprendo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entidades/Paciente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaz/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaz/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaz/Leer.java" afterDir="false" />
+    <list default="true" id="a617a8fb-28c7-4bba-94a6-3dfc01c2bd14" name="Changes" comment="Se finalizó el ejercicio Contigo Aprendo">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaz/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaz/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +41,7 @@
     "Application.AppTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/caperez/IdeaProjects/EjercicioContigoAprendo/src/Main.java",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
@@ -104,10 +95,32 @@
       <option name="presentableId" value="Default" />
       <updated>1729881041140</updated>
     </task>
+    <task id="LOCAL-00001" summary="Se finalizó el ejercicio Contigo Aprendo">
+      <option name="closed" value="true" />
+      <created>1730125162257</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730125162257</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Se finalizó el ejercicio Contigo Aprendo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se finalizó el ejercicio Contigo Aprendo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

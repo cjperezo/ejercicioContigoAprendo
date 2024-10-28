@@ -22,8 +22,7 @@ public class App {
                     System.out.println("Estatura del Paciente:. "+ paciente.getEstatura());
                     System.out.println("-----Pesos obtenidos por mes-----");
                     for (int i = 0; i < paciente.getPesoMensual().length; i++) {
-                        System.out.println("El peso obtenido en " + (i + 1) +
-                                " es: " + paciente.getPesoMensual()[i] + "Kg");
+                        System.out.println("El peso obtenido en el mes de " + nombresMeses[i] + " es: " + paciente.getPesoMensual()[i] + "Kg");
                     }
                     break;
                 case 2:
@@ -47,7 +46,7 @@ public class App {
                         if (meses == null) {
                             System.out.println("El paciente nunca pesó menos de " + x + "Kg.");
                         } else {
-                            System.out.print("Los meses en los que el paciente pesó menos de " + x + "Kg son: ");
+                            System.out.println("Los meses en los que el paciente pesó menos de " + x + "Kg son: ");
                             for (String mes : meses) {
                                 System.out.print(mes + " ");
                             }
