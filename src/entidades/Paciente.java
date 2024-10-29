@@ -28,7 +28,7 @@ public class Paciente {
         this.pesoMensual = new int[12];
 
         for (int i = 0; i < pesoMensual.length; i++) {
-            //Obtenemos el valor aleatorio de 70 a 250
+            //Obtenemos el valor aleatorio de 90 a 100
             pesoMensual[i] = (int) (Math.random() * (100 - 90 + 1) + 90);
         }
     }
@@ -134,11 +134,11 @@ public class Paciente {
         double imc = indiceMasaCorporal(mes, estatura);
 
         if (imc >= 15 && imc < 20) {
-            return "Normal";
+            return "NORMAL";
         } else if (imc >= 20 && imc < 28) {
-            return "Sobrepeso";
+            return "SOBREPESO";
         } else if (imc >= 28) {
-            return "Obeso";
+            return "OBESO";
         } else {
             return "IMC fuera de rango";
         }
